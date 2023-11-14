@@ -29,7 +29,7 @@ function App() {
         <ul>
           {items.map((todoItem, index) => (
             <ToDoItem
-              key={index}
+              key={index} 
               id={index}
               text={todoItem}
               onChecked={deleteItem}
@@ -41,4 +41,5 @@ function App() {
   );
 }
 
+//app completed
 export default App;
